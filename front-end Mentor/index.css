@@ -1,0 +1,63 @@
+body{
+
+    background-color:hsl(212, 45%, 89%) ;
+    }
+    .qr_challenge{
+      display: inline-block;
+      position: relative;
+      top: 70px;
+      left: 40%;
+      border-radius: 350px;
+      background-color: hsl(0, 0%, 100%);
+
+    }
+
+    .card{
+      padding: 15px;
+      border-radius: 20px;
+
+    }
+
+    .card img{
+       border-radius: 15px;
+    }
+    .card-title{
+      color:hsl(218, 44%, 22%) ;
+      font-family: 'Outfit', sans-serif;  
+      font-weight: 600;
+   }
+
+   .card-text{
+    padding: 5px 0;
+    font-family: 'Outfit', sans-serif;  
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+   }
+ 
+ 
+   @media screen and (max-width: 1000px) {
+    .qr_challenge{
+      position: relative;
+      top:30px;
+      left: 38%;
+    }
+ }
+
+   @media screen and (max-width: 745px) {
+    .qr_challenge{
+      position: relative;
+      top:30px;
+      left: 28%;
+    }
+    
+  }
+  @media screen and (max-width: 375px) {
+    .qr_challenge{
+      position: relative;
+      top:30px;
+      left: 8%;
+    }
+    
+  }
